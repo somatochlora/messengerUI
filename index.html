@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Messaging System</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <p id="login">
+                <span>Logged in as:</span><span>Mau Mahadevan</span>
+                <button>Logout</button>
+            </p>
+            <h3>All Messages</h3>
+            <div id="message-grouping">
+                <p>Show:</p>
+                <input id="all-messages" type="radio" name="group-choice">
+                <label for="all-messages">All messages</label>
+                <input id="folder" type="radio" name="group-choice">
+                <label for="folder">Folder</label>
+                <select>
+                    <option>Project 1</option>
+                    <option>Project 2</option>
+                    <option>Project 3</option>
+                </select>
+                <button id="new-folder">New Folder</button>
+            </div>
+            <div id="messages">
+                <ul>
+                    <li id="new-message"><span id="sender">*new* From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going? I hope you're having a great day. How's the project going? Please let me know ASAP. Thanks, Reuven</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                    <li><span id="sender">From: Reuven Martin</span><span id="sent-date-time">12:30pm, February 2 2023</span><span id="message-start">Hi Mau, how's it going?</span></li>
+                </ul>
+            </div>            
+            <button>Send New Message</button>
+        </section>
+    </main>    
+</body>
+</html>
